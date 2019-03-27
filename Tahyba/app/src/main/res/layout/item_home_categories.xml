@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/iv_item_img2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/iv_item_home"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:scaleType="fitXY" />
+
+        <com.iprismtech.tahyba.customviews.HomeFontBold
+            android:id="@+id/tv_cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Restaurants"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+    </RelativeLayout>
+</LinearLayout>

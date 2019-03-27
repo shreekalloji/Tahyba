@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tahyba</string>
+    <string name="otp_text">We have sent you an SMS with a OTP Code to your number for verification.</string>
+    <string name="give_rating"><![CDATA[Give Rating & Review]]></string>
+
+</resources>
